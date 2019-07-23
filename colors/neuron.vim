@@ -27,7 +27,7 @@ set cursorline
 " --------------------------------
 hi Normal           cterm=none      ctermfg=015      ctermbg=none     gui=none      guifg=#ffffff     guibg=#282828
 hi Cursor           cterm=none      ctermfg=none     ctermbg=015      gui=none      guibg=#ffffff
-hi CursorLine       cterm=none      ctermfg=none     ctermbg=none     guibg=#282828
+hi CursorLine       cterm=none      ctermfg=none     ctermbg=none     gui=none      guibg=#282828
 hi CursorLineNr     cterm=bold      ctermfg=015      ctermbg=none     gui=bold      guifg=#ffffff
 hi LineNr           cterm=none      ctermfg=242      ctermbg=none     gui=none      guifg=#6c6c6c
 hi EndOfBuffer      cterm=none      ctermfg=238      ctermbg=none     gui=none      guifg=#444444
@@ -64,7 +64,7 @@ hi StatusLine       cterm=none      ctermfg=015      ctermbg=none
 hi StatusLineNC     cterm=none      ctermfg=238      ctermbg=none
 hi WildMenu         cterm=bold      ctermfg=015      ctermbg=none
 hi Question         cterm=none      ctermfg=015      ctermbg=none
-hi Title            cterm=none      ctermfg=239      ctermbg=236
+hi Title            cterm=bold      ctermfg=003      ctermbg=236
 hi ModeMsg          cterm=bold      ctermfg=015      ctermbg=none
 hi MoreMsg          cterm=none      ctermfg=015      ctermbg=none
 
@@ -120,7 +120,7 @@ hi PreProc          cterm=none      ctermfg=011      ctermbg=none
 hi Type             cterm=none      ctermfg=010      ctermbg=none
 hi Structure        cterm=none      ctermfg=006      ctermbg=none
 hi Macro            cterm=none      ctermfg=013      ctermbg=none
-hi link Include         Statement
+hi Include          cterm=none      ctermfg=013      ctermbg=none
 hi link Define          PreProc
 hi link PreCondit       PreProc
 hi link StorageClass    Type
