@@ -43,7 +43,7 @@ hi Folded           cterm=none      ctermfg=242      ctermbg=none
 " -------------------------
 " - Window/Tab delimiters - 
 " -------------------------
-hi VertSplit        cterm=none      ctermfg=234      ctermbg=none
+hi VertSplit        cterm=none      ctermfg=235      ctermbg=none
 hi ColorColumn      cterm=none      ctermfg=none     ctermbg=none
 hi TabLine          cterm=none      ctermfg=242      ctermbg=none
 hi TabLineFill      cterm=none      ctermfg=245      ctermbg=none
@@ -64,7 +64,7 @@ hi StatusLine       cterm=none      ctermfg=015      ctermbg=none
 hi StatusLineNC     cterm=none      ctermfg=238      ctermbg=none
 hi WildMenu         cterm=bold      ctermfg=015      ctermbg=none
 hi Question         cterm=none      ctermfg=015      ctermbg=none
-hi Title            cterm=bold      ctermfg=003      ctermbg=236
+hi Title            cterm=bold      ctermfg=003      ctermbg=none
 hi ModeMsg          cterm=bold      ctermfg=015      ctermbg=none
 hi MoreMsg          cterm=none      ctermfg=015      ctermbg=none
 
